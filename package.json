@@ -1,14 +1,12 @@
 {
   "name": "mysql-async-adapter",
   "version": "1.0.0",
-  "description": "Async Adapter MySQL",
+  "description": "The adapter for working with the MySQL database through promises",
   "main": "index.js",
-  "scripts": {
-    "test": "test.js "
-  },
+  "scripts": { },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pikada-lab/mysql-async-adapter.git"
+    "url": "https://github.com/pikada-lab/mysql-async-adapter.git"
   },
   "keywords": [
     "MySQL",
