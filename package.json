@@ -1,0 +1,26 @@
+{
+  "name": "mysql-async-adapter",
+  "version": "1.0.0",
+  "description": "Async Adapter MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikada-lab/mysql-async-adapter.git"
+  },
+  "keywords": [
+    "MySQL",
+    "Async"
+  ],
+  "author": "Anton Dzhigurda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikada-lab/mysql-async-adapter/issues"
+  },
+  "homepage": "https://github.com/pikada-lab/mysql-async-adapter#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
