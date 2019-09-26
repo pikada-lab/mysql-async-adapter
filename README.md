@@ -11,13 +11,13 @@ npm install mysql-async-adapter
 #Usage
 
 <code> 
-const MySQLAsyncAdapter = requier('mysql-async-adapter')
+const MySQLAsyncAdapter = require('mysql-async-adapter')
 </code>
 
 The function Open is async.
 
 <code>
-this.db = await new MySQLAsybcAdapter({ ... }).open()
+this.db = await new MySQLAsyncAdapter({ ... }).open()
 </code>
 
 Use the following example to call a query to the database.
