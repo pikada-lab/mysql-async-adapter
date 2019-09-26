@@ -8,17 +8,21 @@ The adapter for working with the MySQL database through promises
 npm install mysql-async-adapter
 </code>
 
-#Usage
+# Usage
 
 <code> 
 const MySQLAsyncAdapter = require('mysql-async-adapter')
 </code>
+
+---
 
 The function Open is async.
 
 <code>
 this.db = await new MySQLAsyncAdapter({ ... }).open()
 </code>
+
+---
 
 Use the following example to call a query to the database.
 
