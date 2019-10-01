@@ -27,5 +27,6 @@ this.db = await new MySQLAsyncAdapter({ ... }).open()
 Use the following example to call a query to the database.
 
 <code>
- const res = await this.mysql.query('SELECT 1')
+ const res = await this.mysql.query('SELECT 1 as id')
+ assert(res[0].id == '1') 
 </code>

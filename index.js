@@ -63,6 +63,15 @@ class MySQLAsyncAdapter {
         })
     }
 
+    disconnect() {
+        this.db.destroy();
+    }
+
+    state() {
+        return new Promise((resolve, reject) => {
+            resolve(this.db.state);
+        });
+    }
 }
 
 module.exports = MySQLAsyncAdapter
